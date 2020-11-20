@@ -70,3 +70,49 @@
 належати-gehören,hatgehört
 важливо-wichtig
 мало-wenig
+----------hilfe
+ліфт-der Aufzug, die Aufzüge
+душ-die Dusche, die Duschen
+телевізор-der Fernseher, die Fernseher
+фен-der Föhn, die Föhne/Fönes
+гість-der Gast, die Gäste
+рушник-das Handtuch, die Handtüher
+обігрівач-die Heizung, die Heizungen
+кондиціонер-die Klimaanlage, die Klimaanlagen
+інтернет з'єднання-die Verbindung, die Internetverbindung, die Vebindungen
+будильник-der Wecker, die Wecker
+повідомляти-Bescheid sagen
+покликати на допомогу-Hilfe rufen
+приносити-bringen, hat gebracht
+працювати (справно)-funktionieren, hat funktioniert
+піклуватись (take care)-kümmern, hat gekümmert
+ремонтувати-reparieren, hat repariert
+відправляти (техніка)-schicken, hat geschikt
+зламаний-kaputt
+негайно-sofort
+мати бажання-Lust die, Lust haben
+відмінити зустріч-Termine absagen, hat abgesagt
+домовлятись-vereinbaren, hat vereinbart
+відміняти-verschieben, hat verschoben
+підходити-passen, hat gepasst
+Вам/тобі підходить?-Passt es dir/Ihnen?
+вчасно-pünktlich
+страх-die Angst, die Ängste
+курс, заняття-der Kurs, die Kurse (der Tanzkurs, der Spanischkurs)
+життя-das Leben
+зустріч (мітинг)-die Sitzung, die Sitzungen
+година-die Stunde, die Stunden
+вимикати-ausmachen, hat ausgemacht
+познайомити-kennenlernen, hat kennengelernt
+взяти з собою, забрати-mitnehmen, hat mitgenommen
+робити-tun, hat getan
+чекати-warten, hat gewartet
+дурний-dumm, Wie dumm!
+холодний-kalt
+щасливий-lustig
+дивно-seltsam
+впевнений-sicher
+навіть-selbst
+шановні ...-Sehr geehrte
+з повагою...- Mit freundlichen
+
