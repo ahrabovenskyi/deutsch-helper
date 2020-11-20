@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deutsch</title>
+</head>
+
+<body>
+
+	<input type="file" id="input" multiple>
+
+	<div id="tester">	
+		<button onclick="getWord2()">Click me</button>
+		<p id="ukr2" style="font-size:25px;"></p>	
+		<button onclick="show2()">Translation</button>
+		<p id="deu2" style="font-size:40px; color:red;"></p>
+	</div>
+
+
+	<div id='topicsSelectorDiv'>
+ 		<select id="topicsSelect" onchange="getWordsForTesting()"></select>
+	</div>
+
+
+	<div id='allWords'>
+ 		<button onclick="getAllWordsTesting()">Get All Words Testing</button>
+	</div>
+
+<script type="text/javascript">
+
+	var topicDativUndStadtMap = new Map();
+
+
+	document.getElementById('input').addEventListener('change', getFile)
+	document.getElementById('topicsSelect').style.visibility  = 'hidden'
+    document.getElementById('tester').style.visibility = 'hidden'
+    document.getElementById('allWords').style.visibility = 'hidden'
+
+
+	let map = new Map()
+
+	function getFile(){
+		const input = event.target
+		const target = document.getElementById('content-target')
+		const file = input.files[0]
+
+		const reader = new FileReader()
+  		return new Promise((resolve, reject) => {
+    		reader.onload = event => resolve(event.target.result)
+    		reader.onerror = error => reject(error)
+    		reader.readAsText(file)
+  		}).then(content => {
+  	    	parseFile(content)
+  		})
+	}
+
+	function parseFile(content){
+		
+		let newTopic = []
+		
+		const rows = content.split('\n')
+		let lastTopic = rows[0]
+		for(i=0; i<rows.length; i++){
+			if(!rows[i].startsWith('----------')){
+				newTopic.push(rows[i])
+				
+			}else{
+				map.set(lastTopic, newTopic)
+				lastTopic = rows[i]
+				newTopic = []
+			}
+		}
+		map.set(lastTopic, newTopic)
+
+		if(map.size>0){
+			createSelectTopicList(map)
+			document.getElementById('tester').style.visibility = 'visible'
+		}
+	}
+
+	function createSelectTopicList(mapOfWords){
+		document.getElementById('topicsSelect').style.visibility = 'visible'
+
+		document.getElementById('allWords').style.visibility = 'visible'
+		let selectListReference = document.getElementById('topicsSelect')
+		
+		let topics = mapOfWords.keys()
+
+		let result = topics.next();
+
+		while (!result.done) {
+ 			
+ 			let opt = document.createElement('option');
+			opt.appendChild(document.createTextNode(result.value));
+			opt.value = result.value;
+			selectListReference.appendChild(opt);
+
+			opt.addEventListener('onchange', getWordsForTesting(result.value))
+
+			result = topics.next();
+
+		}
+	}
+
+	function getWordsForTesting(){
+		let key = document.getElementById("topicsSelect").value;
+		let wordsArray = map.get(key)
+        topicDativUndStadtMap = new Map()
+		wordsArray.forEach(element => {
+			let words = element.split('-')
+			let key = words[0]
+			let value = words[1]
+
+			topicDativUndStadtMap.set(key, value)
+		})
+	}
+
+	function getWord2(){
+		let keys = Array.from(topicDativUndStadtMap.keys());
+
+		let ind = Math.floor(Math.random() * Math.floor(keys.length-1));
+		let key = keys[ind]
+		var word = topicDativUndStadtMap.get(key);
+		document.getElementById("ukr2").innerHTML = key;
+		document.getElementById("deu2").innerHTML = word;
+		document.getElementById("deu2").style.visibility = "hidden";
+	}
+
+
+	function show2(){
+		document.getElementById("deu2").style.visibility = "visible";
+	}
+
+	function getAllWordsTesting(){
+
+        topicDativUndStadtMap = new Map()
+
+        for (const [key, v] of map.entries()) {
+  	        
+  	        let value = Array.from(v)
+
+  	        value.forEach(el => {
+  	        	let words = el.split('-')
+				let key2 = words[0]
+				let value2 = words[1]
+
+				console.log(key2, value2)
+
+				topicDativUndStadtMap.set(key2, value2)
+  	        })
+
+		}
+
+		alert("all words are selected for testing")
+	}
+
+</script>	
+
+
+</body>
+</html>
