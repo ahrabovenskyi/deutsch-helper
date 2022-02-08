@@ -1,72 +1,48 @@
-----------hause
-дурево-der Baum, dieBäume
-балкон-der Balkon, dieBalkone
-сад-der Graten, dieGärten
-підвал-der Keller, dieKeller
-сміття-der Müll
-сусід-der Nachbar,die Nachbarin,die Nachbarn
-поверх-der Stock,die Stöke,das Geschoss,die Geschosse
-приміщення(кімната)-der Raum,die Räume
-власник-derV ermieter
-квартира-die Wohnung,die Wohnungen
-квітка-die Blume,die Blumen
-гараж-die Garage,die Garagen,
-оренднаплата-die Miete,die Mieten
-сходи-die Treppe,die Treppen
-будинок-das Haus,die Häuser
-перший(нульовий)поверх-das Erdgeschoss
-другий,третій...поверх-das Obergeschoss
-вікно-das Fenster,die Fenster
-світло-das Licht,die Lichter
-вода-das Wasser
-коридор-передпокій,der Flur,die Flure
-кімната-das Zimmer,die Zimmer
-кабінет-das Arbeitzimmer
-дитячакімната-das Kinderzimmer
-спальня-das Schlafzimmer
-вітальня-das Wohnzimmer
-кухня-die Küche,die Küchen
-туалет-die Toilette,die Toiletten
-ванна-das Bad,die Bäder
-гора-der Berg,die Berge
-річка-der Fluss,die Flüsse
-ліс-der Wald,die Wälder
-море-das Meer,die Meere
-винаймати-vermieten,hatvermietet
-затишний-gemütlich
-порожній-leer
-мебльований-möbliert
-особливо-besonders
-некрасивий-hässlich
-----------stadt
-мені-mir
-тобі-dir
-йому(er/es)-ihm
-їй-ihr
-нам-uns
-вам(ihr)-euch
-вам(sie)-ihnen
-бібліотека-die Bidliotek,die Binlioteken
-хостел-die Jugendherberge,die Jugendherbergen
-церква-die Kirche,die Kirchen
-магазин-der Laden,die Läden
-порт-der Hafen,der Häfen
-дитячийсадок-der Kindergarten,die Kindergärten
-маркет-der Markt,die Märkte
-парк-der Park,die Parks
-дитячиймайданчик-der Spilplatz,die Spilplätze
-вежа-der Turm,die Türme
-бізнес-das Geschäft,die Geschäfte
-ратуша-das Rathaus,die Rathäuser
-замок-das Schloss,die Schlösser
-іноземець-der Ausländer
-вид-der Blick,die Blicke
-людина-der Mensch,die Menschen
-відпустка-der Urlaub
-туристичнеагенство-das Reisebüro,die Reisebüros
-рецепт-das Rezept,die Rezepte
-погода-das Wetter
-бутивідсутнім-fahlen,hatgefehlt
-належати-gehören,hatgehört
-важливо-wichtig
-мало-wenig
+----------Alles auf einen Blick
+ball-der Ball, :e
+tree-der Baum, :e
+Christmas tree-der Weihnachtsbaum
+gifts giving-der Bescherung, en
+custom-der Brauch, :e
+the Christ Child-das Christkind
+decoration-die Dekoration, en
+harvest-die Ernte, n
+Thanksgiving-das Erntedankfest, e
+celebration-die Feier, n
+festival feast-day Fest, e
+birth child birth-die Geburt, en
+birth day-die Geburtstag, e
+Christmas Eve-der Heiligabend
+wedding-die Hochzeit, en
+Good Friday-der Karfreitag, e
+candle-die Kerze, n
+church-die Kirche, n
+culture-die Kultur, en
+life-das Leben, (die gleiche)
+New Year celebration-was Neujahrsfest, e
+The Easter-das Ostern
+Easter bunny OR Easter rabbit-der Osterhase, n
+Easter Monday-der Ostermontag, e
+Easter Sunday-der Ostersonntag, e
+prist-der Priester
+symbol-das Symbol, e
+death-per Tod, e
+tradition-die Tradition, en
+Christmas-das Weihnachten
+Christmas celebration-das Weihnachtsfest, e
+Santa Claus-der Weihnachtsmann, :er
+train-der Zug, :e
+thanks for...-danke für + A
+to decorate-dekorieren 
+to congretulate-gratulieren zu
+to present-schenken
+adorn OR decorate-schmücken
+symbolize-symbolisieren
+to be typical for...-typisch sein für + A
+banquet-das Festessen
+buffet-das Büffet, s
+egg-das Ei, er
+fondue-das Fondue
+fruit-die Frucht, :e
+roast goose-der Gänsebraten
+grain-das Getreide
