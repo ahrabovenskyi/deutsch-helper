@@ -2,7 +2,7 @@
 ball-der Ball, :e
 tree-der Baum, :e
 Christmas tree-der Weihnachtsbaum
-gifts giving-der Bescherung, en
+gifts giving-die Bescherung, en
 custom-der Brauch, :e
 the Christ Child-das Christkind
 decoration-die Dekoration, en
@@ -26,7 +26,7 @@ Easter Monday-der Ostermontag, e
 Easter Sunday-der Ostersonntag, e
 prist-der Priester
 symbol-das Symbol, e
-death-per Tod, e
+death-der Tod, e
 tradition-die Tradition, en
 Christmas-das Weihnachten
 Christmas celebration-das Weihnachtsfest, e
@@ -46,3 +46,4 @@ fondue-das Fondue
 fruit-die Frucht, :e
 roast goose-der Gänsebraten
 grain-das Getreide
+song-das Lied, er
