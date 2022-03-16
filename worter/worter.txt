@@ -1,3 +1,59 @@
+----------MOST COMMON WORDS
+loud-laut
+to read-lesen, er liest, PR: las, PII: hat gelesen
+to see-sehen, er sieht, PR: sah, PII: hat gesehen
+to need-brauchen
+army-die Wehr
+air defense-die Flugabwehr
+to follow-folgen
+rule policy-die Regel, n
+to learn-lernen
+the end-das Ende, n
+short-kurz
+shortterm-kurzfristig
+longterm-langfristig
+million-die Million, en
+strong-stark
+school-die Shule, n
+week-die Woche, n
+to exist to consist-bestehen PR: bestand PII: hat bestanden
+right correct-richtig
+for it-dafür
+as well as-sowie
+often-oft
+father-der Vater, :a
+side page-die Seite, en
+different-verschieden
+just simply-halt
+life-das Leben
+though indeed certainly-allerdings
+to understand-verstehen, PR: verstand, PII: hat verstanden
+almost-fast
+well probably-wohl
+special certain-bestimmt
+mother-die Mutter, :u
+to set to put to place-setzen
+at all generally-überhaupt
+reason basis-der Grund, (:u)e
+better-besser
+fast-schnell
+to get to receive-bekommen, PR: bekamm, PII: hat bekommen
+gladly-gern
+eye-das Auge, n
+safe secure certain-sicher
+from it | about it | thereof-davon
+to begin-beginnen, PR: began, PII: hat begonnen
+to narrate | to tell-erzählen, PII: erzählte, PII: hat erzählt
+to try | to attempt-versuchen
+especially-besonders
+word-das Wort, (:o)er
+beside | next to-neben
+to write-schreiben, PR: schrieb, PII: hat geschrieben
+why-warum
+next-nächst
+to run-laufen, er läuft, PR: lief, PII: ist gelaufen
+money-das Geld
+to explain-erklären, PR: erklärte, PII: hat erklärt
 ----------Alles auf einen Blick
 ball-der Ball, :e
 tree-der Baum, :e
